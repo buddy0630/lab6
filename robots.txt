@@ -1,5 +1,2 @@
 User-agent: *
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
-
-Sitemap: https://buddy0630.github.io/lab6/
+Disallow:
