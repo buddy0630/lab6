@@ -1,0 +1,24 @@
+# Allow all robots complete access
+User-agent: *
+Disallow:
+
+# Disallow access to specific folders
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /backup/
+
+# Disallow specific pages
+Disallow: /secret-page.html
+
+# Disallow certain sections related to the chat widget
+Disallow: /chat/
+
+# Allow specific web crawlers
+User-agent: Googlebot
+Disallow: /no-google/
+
+User-agent: Bingbot
+Allow: /
+
+# Specify the sitemap location
+Sitemap: https://www.yourwebsite.com/sitemap.xml
