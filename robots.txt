@@ -1,0 +1,9 @@
+# Allow all crawlers access to the site
+User-agent: *
+Disallow: 
+
+# Block crawlers from accessing the admin area (if applicable)
+# Disallow: /admin/
+
+# Allow specific folders if necessary
+# Allow: /images/
